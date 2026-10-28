@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Satyam Dubey's Profile</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #1a0b3b;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: #0a0a0a;
+      color: white;
+      padding: 14px;
+      text-align: center;
+    }
+
+    .card {
+      width: 280px;
+      margin: 24px auto;
+      background: white;
+      border: 2px solid #2f5bea;
+      border-radius: 16px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .avatar {
+      width: 90px;
+      height: 90px;
+      margin: 0 auto 10px;
+      border-radius: 50%;
+      background: #2f5bea;
+      color: white;
+      font-size: 36px;
+      line-height: 90px;
+    }
+
+    .bio {
+      height: 100px;
+      overflow: auto;
+      margin-top: 12px;
+      padding: 8px;
+      border: 1px solid #ccd;
+      text-align: left;
+      font-size: 15px;
+      line-height: 1.5;
+    }
+
+    .fab {
+      position: fixed;
+      right: 16px;
+      bottom: 16px;
+      width: 54px;
+      height: 54px;
+      border: 0;
+      border-radius: 50%;
+      background: #d2d0d6;
+      font-size: 26px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <header>My Profile Page</header>
+
+  <main class="card">
+    <div class="avatar">S</div>
+    <h2>Satyam Dubey</h2>
+    <p>B.Tech CSE Student</p>
+
+    <div class="bio">
+      Hi! I am Satyam Dubey. I started coding this year. I enjoy making big
+      websites, playing BGMI, and listening to music. My goal is to build my
+      own app. This is a long bio, so you can scroll inside this box to read
+      more about me. I am learning new things every day and hope to create
+      useful and exciting projects in the future.
+    </div>
+  </main>
+
+  <button class="fab" type="button" aria-label="Add">+</button>
+</body>
+</html>
